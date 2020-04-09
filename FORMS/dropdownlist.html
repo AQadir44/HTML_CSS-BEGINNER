@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p><h3>1st method:</h3> <br> without any default selection</p>
+    <form action="http://www.example.com/login.php">
+        <p>
+            Select your Degree:
+            <select name="Degree" id="">
+                <option value="Matric">Matriculation</option>
+                <option value="Inter">Intermediate</option>
+                <option value="Bachelor">Bachelors</option>
+                <option value="Master">Master</option>
+            </select>
+        </p>
+    </form>
+    <br>
+    <p><h3>2nd method:</h3> <br> by default selection</p>
+    <form action="http://www.example.com/login.php">
+        <p>
+            Select your Degree:
+            <select name="Degree" id="">
+                <option value="Matric">Matriculation</option>
+                <option value="Inter">Intermediate</option>
+                <option selected value="Bachelor">Bachelors</option>
+                <option value="Master">Master</option>
+            </select>
+        </p>
+    </form>
+    <br>
+    <p><h3>3rd method:</h3> <br> more than one selection</p>
+    <form action="http://www.example.com/login.php">
+        <p>
+            Select your Degree:
+            <select name="Degree" id="" multiple='multiple'>
+                <option value="Matric">Matriculation</option>
+                <option value="Inter">Intermediate</option>
+                <option selected value="Bachelor">Bachelors</option>
+                <option value="Master">Master</option>
+            </select>
+        </p>
+    </form>
+
+
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--action is the attribute,
+         get method is use for short form and
+          post method is use for wider form-->
+    <!-- <form action="http://www.example.com/subscribe.php" method="get">
+        <p>this is the where forms control will appear
+
+        </p>
+    </form> -->
+
+    <form action="http://www.example.com/login.php">
+
+        <p align='center' >
+            <h3>1<sup>st</sup> Method:Simple Getting</h3>username:
+            <input type="text" name='username' size='15' maxlength='30'>
+            <!-- size of the text portion ,
+            maxlength is the max length of input character -->
+            <br>
+            password:
+            <input type="password" name='password' size='15' maxlength="8">
+            <br>
+            submit your info:
+            <input type="submit" value="submit">
+        </p>
+
+        <p align='center' >
+            <h3>2<sup>nd</sup> Method:Must Required</h3>username:
+            <input type="text" name='username' size='15' maxlength='30' required>
+            <!-- size of the text portion ,
+            maxlength is the max length of input character -->
+            <br>
+            password:
+            <input type="password" name='password' size='15' maxlength="8" required>
+            <br>
+            submit your info:
+            <input type="submit" value="submit">
+        </p>
+    </form>
+</body>
+
+</html>

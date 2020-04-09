@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <p>WRONG FORM</p>
+    <!--putting different names is wrong-->
+    <form action="http://www.example.com/login.php">
+        <p> Please Select the Gender:
+            <br>
+            male: <input type="radio" name="male" id="">
+            female: <input type="radio" name="female" id="">
+            other <input type="radio" name="other" id="">
+        </p>
+    </form>
+    <br>
+    <br>
+    <P>CORRECT FORM</P>
+    <form action="http://www.example.com/login.php">
+        <p> Please Select the Gender:
+            <br>
+            male: <input type="radio" name="gender" value='male' id="">
+            female: <input type="radio" name="gender" value='female' id="">
+            other <input type="radio" name="gender" value='other' id="">
+        </p>
+
+    </form>
+</body>
+
+</html>
